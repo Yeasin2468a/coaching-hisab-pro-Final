@@ -1,0 +1,22 @@
+{
+  "name": "কোচিং হিসাব Pro",
+  "short_name": "কোচিং হিসাব",
+  "description": "কোচিং ক্লাস, পাওনা, পেমেন্ট, Previous Due, Carry Forward, Outstanding ও মাসিক রিপোর্ট ব্যবস্থাপনা অ্যাপ",
+  "start_url": "./coaching_hisab_mobile.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "portrait",
+  "background_color": "#f8fafc",
+  "theme_color": "#0f766e",
+  "lang": "bn",
+  "dir": "ltr",
+  "categories": ["productivity", "utilities"],
+  "shortcuts": [
+    {"name":"ক্লাস যোগ", "short_name":"ক্লাস", "url":"./coaching_hisab_mobile.html#classes", "icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml"}]},
+    {"name":"পেমেন্ট যোগ", "short_name":"পেমেন্ট", "url":"./coaching_hisab_mobile.html#payments", "icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml"}]}
+  ],
+  "icons": [
+    {"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
